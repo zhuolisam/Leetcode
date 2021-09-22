@@ -27,7 +27,7 @@ public class Day01 {
     /**
      * Approach 1: Brute Force [Time Limit Exceeded]
      */
-    public class Solution {
+
         public int arrayNesting(int[] nums) {
             int res = 0;
             for (int i = 0; i < nums.length; i++) {
@@ -42,7 +42,7 @@ public class Day01 {
             }
             return res;
         }
-    }
+
 
     /**
      *  Approach 2: Using Visited Array
@@ -82,7 +82,6 @@ public class Day01 {
      *  Time complexity : O(n). Every element of the nums array will be considered at most once.
      *  Space complexity : O(1). Constant Space is used.
      */
-    class Solution {
         public int arrayNesting(int[] nums) {
             int rst = 0;
             for (int i = 0; i < nums.length; i++) {
@@ -100,5 +99,4 @@ public class Day01 {
             }
             return rst;
         }
-    }
 }
